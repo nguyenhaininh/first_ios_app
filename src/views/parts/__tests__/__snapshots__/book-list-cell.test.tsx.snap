@@ -1,0 +1,78 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View
+  style={Object {}}
+>
+  <View />
+  <View
+    style={Object {}}
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "color": "#000000",
+          "fontSize": 12,
+          "fontWeight": "bold",
+          "marginTop": 10,
+        }
+      }
+    >
+      Book Title
+    </Text>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "marginTop": 6,
+        }
+      }
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "color": "#999999",
+            "fontSize": 11,
+          }
+        }
+      >
+        Sub Title
+      </Text>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "borderColor": "#e62222",
+            "borderWidth": 1,
+            "height": 12,
+            "justifyContent": "center",
+            "width": 27,
+          }
+        }
+      >
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "color": "#e62222",
+              "fontSize": 8,
+            }
+          }
+        >
+          NEW
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;

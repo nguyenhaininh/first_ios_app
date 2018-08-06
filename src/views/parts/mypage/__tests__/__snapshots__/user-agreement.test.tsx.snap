@@ -1,0 +1,179 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#f7f7f7",
+      "flex": 1,
+      "paddingTop": 20,
+    }
+  }
+>
+  <View
+    accessible={true}
+    isTVSelectable={true}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#ffffff",
+            "borderBottomColor": "#eaebed",
+            "borderBottomWidth": 0.5,
+            "flexDirection": "row",
+            "height": 54,
+            "paddingHorizontal": 15,
+          },
+          Object {
+            "borderTopColor": "#eaebed",
+            "borderTopWidth": 0.5,
+          },
+        ]
+      }
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "color": "#333333",
+            "flex": 1,
+            "fontSize": 16,
+          }
+        }
+      >
+        T会員規約
+      </Text>
+      <Image
+        source={
+          Object {
+            "testUri": "../../../src/assets/images/arrow-ico.png",
+          }
+        }
+      />
+    </View>
+  </View>
+  <View
+    accessible={true}
+    isTVSelectable={true}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#ffffff",
+            "borderBottomColor": "#eaebed",
+            "borderBottomWidth": 0.5,
+            "flexDirection": "row",
+            "height": 54,
+            "paddingHorizontal": 15,
+          },
+          null,
+        ]
+      }
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "color": "#333333",
+            "flex": 1,
+            "fontSize": 16,
+          }
+        }
+      >
+        Tマガジン利用規約
+      </Text>
+      <Image
+        source={
+          Object {
+            "testUri": "../../../src/assets/images/arrow-ico.png",
+          }
+        }
+      />
+    </View>
+  </View>
+  <View
+    accessible={true}
+    isTVSelectable={true}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#ffffff",
+            "borderBottomColor": "#eaebed",
+            "borderBottomWidth": 0.5,
+            "flexDirection": "row",
+            "height": 54,
+            "paddingHorizontal": 15,
+          },
+          null,
+        ]
+      }
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "color": "#333333",
+            "flex": 1,
+            "fontSize": 16,
+          }
+        }
+      >
+        TSUTAYA決済サービス利用規約
+      </Text>
+      <Image
+        source={
+          Object {
+            "testUri": "../../../src/assets/images/arrow-ico.png",
+          }
+        }
+      />
+    </View>
+  </View>
+</View>
+`;

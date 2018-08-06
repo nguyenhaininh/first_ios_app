@@ -1,0 +1,92 @@
+{
+  "name": "tp-native-store-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "android": "node node_modules/react-native/local-cli/cli.js run-android",
+    "ios": "node node_modules/react-native/local-cli/cli.js run-ios",
+    "test": "gulp test",
+    "build": "node ./node_modules/gulp/bin/gulp build",
+    "watch": "tsc --watch",
+    "postinstall": "npm run build",
+    "clean": "rm -rf build",
+    "lint": "tslint --project tsconfig.json",
+    "gen:view": "node scripts/generate-view.js",
+    "gen:action": "node scripts/generate-action-reducer.js"
+  },
+  "jest": {
+    "globals": {
+      "ts-jest": {
+        "useBabelrc": true
+      }
+    },
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx",
+      "json",
+      "node"
+    ],
+    "preset": "react-native",
+    "testMatch": [
+      "**/__tests__/**/*.[tj]s?(x)",
+      "**/?(*.)(spec|test).[tj]s?(x)"
+    ],
+    "transformIgnorePatterns": [
+      "node_modules/?!(react-router-native)"
+    ],
+    "transform": {
+      "^.+\\.tsx?$": "ts-jest"
+    },
+    "setupFiles": [
+      "<rootDir>/jest-setup.js"
+    ]
+  },
+  "dependencies": {
+    "invariant": "^2.2.4",
+    "moment": "^2.22.2",
+    "react": "^16.3.2",
+    "react-native": "0.55.3",
+    "react-native-i18n": "^2.0.12",
+    "react-native-vector-icons": "^4.6.0",
+    "react-redux": "^5.0.7",
+    "react-router-native": "^4.3.0",
+    "react-router-navigation": "^1.0.0-rc.4",
+    "redux": "^3.7.2",
+    "util": "^0.11.0"
+  },
+  "devDependencies": {
+    "@types/invariant": "^2.2.29",
+    "@types/jest": "^22.2.3",
+    "@types/prop-types": "^15.5.4",
+    "@types/react": "^16.4.7",
+    "@types/react-native": "^0.55.3",
+    "@types/react-native-i18n": "^2.0.0",
+    "@types/react-native-vector-icons": "^4.6.0",
+    "@types/react-redux": "^5.0.16",
+    "@types/react-router-native": "^4.2.2",
+    "@types/react-router-navigation": "^1.0.6",
+    "@types/react-test-renderer": "^16.0.1",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-tslint": "^8.1.3",
+    "gulp-watch": "^5.0.0",
+    "jest": "^23.3.0",
+    "jest-cli": "^23.3.0",
+    "jest-react-native": "^18.0.0",
+    "lodash.camelcase": "^4.3.0",
+    "lodash.kebabcase": "^4.1.1",
+    "mustache": "^2.3.0",
+    "react-native-typescript-transformer": "^1.2.4",
+    "react-test-renderer": "^16.4.1",
+    "read-package-tree": "^5.2.1",
+    "run-sequence": "^2.2.1",
+    "ts-jest": "^23.0.0",
+    "tslib": "^1.9.3",
+    "tslint": "^5.9.1",
+    "tslint-react": "^3.5.1",
+    "typescript": "^2.9.2"
+  }
+}

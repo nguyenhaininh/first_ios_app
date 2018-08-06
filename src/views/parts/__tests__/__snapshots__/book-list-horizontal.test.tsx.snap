@@ -1,0 +1,698 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<RCTScrollView
+  ItemSeparatorComponent={[Function]}
+  ListFooterComponent={[Function]}
+  ListHeaderComponent={[Function]}
+  data={
+    Array [
+      Object {
+        "date": "2018.5.15",
+        "image": Object {
+          "testUri": "../../../src/assets/images/dummy/cover-1.png",
+        },
+        "title": "mina 7月号",
+      },
+      Object {
+        "date": "2018.5.15",
+        "image": Object {
+          "testUri": "../../../src/assets/images/dummy/cover-3.png",
+        },
+        "title": "non-no 5月号",
+      },
+      Object {
+        "date": "2018.5.15",
+        "image": Object {
+          "testUri": "../../../src/assets/images/dummy/cover-33.png",
+        },
+        "title": "GISELe 6月号",
+      },
+      Object {
+        "date": "2018.5.15",
+        "image": Object {
+          "testUri": "../../../src/assets/images/dummy/cover-15.png",
+        },
+        "title": "&Premium 7月号",
+      },
+      Object {
+        "date": "2018.5.15",
+        "image": Object {
+          "testUri": "../../../src/assets/images/dummy/cover-13.png",
+        },
+        "title": "Hanako 6月12日号",
+      },
+      Object {
+        "date": "2018.5.15",
+        "image": Object {
+          "testUri": "../../../src/assets/images/dummy/cover-20.png",
+        },
+        "title": "FRaU 7月号",
+      },
+    ]
+  }
+  disableVirtualization={false}
+  getItem={[Function]}
+  getItemCount={[Function]}
+  horizontal={true}
+  initialNumToRender={10}
+  keyExtractor={[Function]}
+  maxToRenderPerBatch={10}
+  numColumns={1}
+  onContentSizeChange={[Function]}
+  onEndReachedThreshold={2}
+  onLayout={[Function]}
+  onMomentumScrollEnd={[Function]}
+  onScroll={[Function]}
+  onScrollBeginDrag={[Function]}
+  onScrollEndDrag={[Function]}
+  renderItem={[Function]}
+  scrollEventThrottle={50}
+  showsHorizontalScrollIndicator={false}
+  stickyHeaderIndices={Array []}
+  style={Object {}}
+  updateCellsBatchingPeriod={50}
+  viewabilityConfigCallbackPairs={Array []}
+  windowSize={21}
+>
+  <View>
+    <View
+      onLayout={[Function]}
+      style={null}
+    >
+      <View
+        style={
+          Object {
+            "width": 16,
+          }
+        }
+      />
+    </View>
+    <View
+      onLayout={[Function]}
+      style={
+        Array [
+          Object {
+            "flexDirection": "row",
+          },
+          null,
+        ]
+      }
+    >
+      <View
+        style={Object {}}
+      >
+        <Image
+          resizeMode="contain"
+          source={
+            Object {
+              "testUri": "../../../src/assets/images/dummy/cover-1.png",
+            }
+          }
+        />
+        <View
+          style={Object {}}
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "#000000",
+                "fontSize": 12,
+                "fontWeight": "bold",
+                "marginTop": 10,
+              }
+            }
+          >
+            mina 7月号
+          </Text>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+                "marginTop": 6,
+              }
+            }
+          >
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              style={
+                Object {
+                  "color": "#999999",
+                  "fontSize": 11,
+                }
+              }
+            >
+              2018.5.15 配信
+            </Text>
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "borderColor": "#e62222",
+                  "borderWidth": 1,
+                  "height": 12,
+                  "justifyContent": "center",
+                  "width": 27,
+                }
+              }
+            >
+              <Text
+                accessible={true}
+                allowFontScaling={true}
+                ellipsizeMode="tail"
+                style={
+                  Object {
+                    "color": "#e62222",
+                    "fontSize": 8,
+                  }
+                }
+              >
+                NEW
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "width": 12,
+          }
+        }
+      />
+    </View>
+    <View
+      onLayout={[Function]}
+      style={
+        Array [
+          Object {
+            "flexDirection": "row",
+          },
+          null,
+        ]
+      }
+    >
+      <View
+        style={Object {}}
+      >
+        <Image
+          resizeMode="contain"
+          source={
+            Object {
+              "testUri": "../../../src/assets/images/dummy/cover-3.png",
+            }
+          }
+        />
+        <View
+          style={Object {}}
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "#000000",
+                "fontSize": 12,
+                "fontWeight": "bold",
+                "marginTop": 10,
+              }
+            }
+          >
+            non-no 5月号
+          </Text>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+                "marginTop": 6,
+              }
+            }
+          >
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              style={
+                Object {
+                  "color": "#999999",
+                  "fontSize": 11,
+                }
+              }
+            >
+              2018.5.15 配信
+            </Text>
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "borderColor": "#e62222",
+                  "borderWidth": 1,
+                  "height": 12,
+                  "justifyContent": "center",
+                  "width": 27,
+                }
+              }
+            >
+              <Text
+                accessible={true}
+                allowFontScaling={true}
+                ellipsizeMode="tail"
+                style={
+                  Object {
+                    "color": "#e62222",
+                    "fontSize": 8,
+                  }
+                }
+              >
+                NEW
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "width": 12,
+          }
+        }
+      />
+    </View>
+    <View
+      onLayout={[Function]}
+      style={
+        Array [
+          Object {
+            "flexDirection": "row",
+          },
+          null,
+        ]
+      }
+    >
+      <View
+        style={Object {}}
+      >
+        <Image
+          resizeMode="contain"
+          source={
+            Object {
+              "testUri": "../../../src/assets/images/dummy/cover-33.png",
+            }
+          }
+        />
+        <View
+          style={Object {}}
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "#000000",
+                "fontSize": 12,
+                "fontWeight": "bold",
+                "marginTop": 10,
+              }
+            }
+          >
+            GISELe 6月号
+          </Text>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+                "marginTop": 6,
+              }
+            }
+          >
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              style={
+                Object {
+                  "color": "#999999",
+                  "fontSize": 11,
+                }
+              }
+            >
+              2018.5.15 配信
+            </Text>
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "borderColor": "#e62222",
+                  "borderWidth": 1,
+                  "height": 12,
+                  "justifyContent": "center",
+                  "width": 27,
+                }
+              }
+            >
+              <Text
+                accessible={true}
+                allowFontScaling={true}
+                ellipsizeMode="tail"
+                style={
+                  Object {
+                    "color": "#e62222",
+                    "fontSize": 8,
+                  }
+                }
+              >
+                NEW
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "width": 12,
+          }
+        }
+      />
+    </View>
+    <View
+      onLayout={[Function]}
+      style={
+        Array [
+          Object {
+            "flexDirection": "row",
+          },
+          null,
+        ]
+      }
+    >
+      <View
+        style={Object {}}
+      >
+        <Image
+          resizeMode="contain"
+          source={
+            Object {
+              "testUri": "../../../src/assets/images/dummy/cover-15.png",
+            }
+          }
+        />
+        <View
+          style={Object {}}
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "#000000",
+                "fontSize": 12,
+                "fontWeight": "bold",
+                "marginTop": 10,
+              }
+            }
+          >
+            &Premium 7月号
+          </Text>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+                "marginTop": 6,
+              }
+            }
+          >
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              style={
+                Object {
+                  "color": "#999999",
+                  "fontSize": 11,
+                }
+              }
+            >
+              2018.5.15 配信
+            </Text>
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "borderColor": "#e62222",
+                  "borderWidth": 1,
+                  "height": 12,
+                  "justifyContent": "center",
+                  "width": 27,
+                }
+              }
+            >
+              <Text
+                accessible={true}
+                allowFontScaling={true}
+                ellipsizeMode="tail"
+                style={
+                  Object {
+                    "color": "#e62222",
+                    "fontSize": 8,
+                  }
+                }
+              >
+                NEW
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "width": 12,
+          }
+        }
+      />
+    </View>
+    <View
+      onLayout={[Function]}
+      style={
+        Array [
+          Object {
+            "flexDirection": "row",
+          },
+          null,
+        ]
+      }
+    >
+      <View
+        style={Object {}}
+      >
+        <Image
+          resizeMode="contain"
+          source={
+            Object {
+              "testUri": "../../../src/assets/images/dummy/cover-13.png",
+            }
+          }
+        />
+        <View
+          style={Object {}}
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "#000000",
+                "fontSize": 12,
+                "fontWeight": "bold",
+                "marginTop": 10,
+              }
+            }
+          >
+            Hanako 6月12日号
+          </Text>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+                "marginTop": 6,
+              }
+            }
+          >
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              style={
+                Object {
+                  "color": "#999999",
+                  "fontSize": 11,
+                }
+              }
+            >
+              2018.5.15 配信
+            </Text>
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "borderColor": "#e62222",
+                  "borderWidth": 1,
+                  "height": 12,
+                  "justifyContent": "center",
+                  "width": 27,
+                }
+              }
+            >
+              <Text
+                accessible={true}
+                allowFontScaling={true}
+                ellipsizeMode="tail"
+                style={
+                  Object {
+                    "color": "#e62222",
+                    "fontSize": 8,
+                  }
+                }
+              >
+                NEW
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "width": 12,
+          }
+        }
+      />
+    </View>
+    <View
+      onLayout={[Function]}
+      style={
+        Array [
+          Object {
+            "flexDirection": "row",
+          },
+          null,
+        ]
+      }
+    >
+      <View
+        style={Object {}}
+      >
+        <Image
+          resizeMode="contain"
+          source={
+            Object {
+              "testUri": "../../../src/assets/images/dummy/cover-20.png",
+            }
+          }
+        />
+        <View
+          style={Object {}}
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "#000000",
+                "fontSize": 12,
+                "fontWeight": "bold",
+                "marginTop": 10,
+              }
+            }
+          >
+            FRaU 7月号
+          </Text>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+                "marginTop": 6,
+              }
+            }
+          >
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              style={
+                Object {
+                  "color": "#999999",
+                  "fontSize": 11,
+                }
+              }
+            >
+              2018.5.15 配信
+            </Text>
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "borderColor": "#e62222",
+                  "borderWidth": 1,
+                  "height": 12,
+                  "justifyContent": "center",
+                  "width": 27,
+                }
+              }
+            >
+              <Text
+                accessible={true}
+                allowFontScaling={true}
+                ellipsizeMode="tail"
+                style={
+                  Object {
+                    "color": "#e62222",
+                    "fontSize": 8,
+                  }
+                }
+              >
+                NEW
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+    <View
+      onLayout={[Function]}
+      style={null}
+    >
+      <View
+        style={
+          Object {
+            "width": 16,
+          }
+        }
+      />
+    </View>
+  </View>
+</RCTScrollView>
+`;

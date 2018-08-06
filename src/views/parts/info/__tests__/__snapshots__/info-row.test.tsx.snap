@@ -1,0 +1,122 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View
+  accessible={true}
+  isTVSelectable={true}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={null}
+>
+  <View
+    style={
+      Object {
+        "alignItems": "stretch",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "height": 25,
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "height": 25,
+              "justifyContent": "center",
+              "width": 70,
+            },
+            Object {
+              "backgroundColor": "#004098",
+            },
+          ]
+        }
+      >
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "color": "#ffffff",
+              "fontSize": 11,
+              "fontWeight": "bold",
+            }
+          }
+        >
+          [missing "en.information" translation]
+        </Text>
+      </View>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "color": "#717b91",
+            "fontSize": 11,
+            "marginLeft": 10,
+            "marginRight": 38,
+          }
+        }
+      >
+        Header Text
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+        }
+      }
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "color": "#333333",
+            "flex": 1,
+            "fontSize": 14,
+            "fontWeight": "bold",
+            "lineHeight": 21,
+            "marginBottom": 27,
+            "marginLeft": 16,
+            "marginTop": 14,
+          }
+        }
+      >
+        Content Text
+      </Text>
+      <Image
+        source={
+          Object {
+            "testUri": "../../../src/assets/images/arrow-ico.png",
+          }
+        }
+        style={
+          Object {
+            "marginBottom": 27,
+            "marginLeft": 10,
+            "marginRight": 14,
+            "marginTop": 14,
+          }
+        }
+      />
+    </View>
+  </View>
+</View>
+`;

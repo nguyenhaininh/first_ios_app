@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View
+  accessible={true}
+  isTVSelectable={true}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "borderColor": "#ffcd00",
+      "borderWidth": 2,
+      "justifyContent": "center",
+      "marginHorizontal": 16,
+      "marginVertical": 10,
+      "minHeight": 51,
+      "opacity": 1,
+    }
+  }
+>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Object {
+        "color": "#e62222",
+        "fontSize": 11,
+        "fontWeight": "bold",
+      }
+    }
+  >
+    Test
+  </Text>
+</View>
+`;

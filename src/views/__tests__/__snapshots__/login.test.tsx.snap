@@ -1,0 +1,217 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<RCTScrollView
+  style={
+    Object {
+      "backgroundColor": "#ffffff",
+      "flex": 1,
+    }
+  }
+>
+  <View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "paddingVertical": 40,
+        }
+      }
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "color": "#4f5b77",
+            "fontSize": 20,
+            "fontWeight": "bold",
+          }
+        }
+      >
+        [missing "en.login" translation]
+      </Text>
+      <View
+        style={
+          Object {
+            "height": 20,
+          }
+        }
+      />
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "color": "#4f5b77",
+            "fontSize": 11,
+            "lineHeight": 15,
+            "textAlign": "center",
+          }
+        }
+      >
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "fontWeight": "bold",
+            }
+          }
+        >
+          [missing "en.login_guide_ios_1" translation]
+          
+
+        </Text>
+        [missing "en.login_guide_ios_2" translation]
+      </Text>
+      <View
+        style={
+          Object {
+            "height": 27,
+          }
+        }
+      />
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "color": "#004098",
+            "fontSize": 14,
+            "fontWeight": "bold",
+          }
+        }
+      >
+        [missing "en.yahoo_japan_id" translation]
+      </Text>
+      <View
+        style={
+          Object {
+            "height": 10,
+          }
+        }
+      />
+      <View
+        accessible={true}
+        isTVSelectable={true}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <Image
+          source={
+            Object {
+              "testUri": "../../../src/assets/images/login-yahoo-btn.png",
+            }
+          }
+        />
+      </View>
+      <View
+        style={
+          Object {
+            "height": 10,
+          }
+        }
+      />
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "color": "#4f5b77",
+            "fontSize": 10,
+          }
+        }
+      >
+        [missing "en.login_guide_yj" translation]
+      </Text>
+      <View
+        style={
+          Object {
+            "height": 34,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "#eeeeee",
+            "height": 1,
+            "width": "100%",
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "height": 34,
+          }
+        }
+      />
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "color": "#004098",
+            "fontSize": 14,
+            "fontWeight": "bold",
+          }
+        }
+      >
+        [missing "en.for_tsutaya_premium_user" translation]
+      </Text>
+      <View
+        style={
+          Object {
+            "height": 27,
+          }
+        }
+      />
+      <View
+        accessible={true}
+        isTVSelectable={true}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "color": "#3366ff",
+            }
+          }
+        >
+          [missing "en.login_with_tid" translation]
+        </Text>
+      </View>
+    </View>
+  </View>
+</RCTScrollView>
+`;

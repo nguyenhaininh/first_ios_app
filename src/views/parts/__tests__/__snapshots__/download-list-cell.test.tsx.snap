@@ -1,0 +1,192 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View
+  accessible={true}
+  isTVSelectable={true}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "opacity": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "height": 156,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+          "padding": 15,
+        }
+      }
+    >
+      <Image
+        resizeMode="contain"
+        source={
+          Object {
+            "testUri": "../../../src/assets/images/dummy/cover-1.png",
+          }
+        }
+        style={
+          Object {
+            "backgroundColor": "#f7f7f7",
+            "height": 126,
+            "width": 100,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "flex": 1,
+            "marginLeft": 20,
+          }
+        }
+      >
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "color": "#000000",
+              "fontSize": 14,
+              "fontWeight": "bold",
+              "marginTop": 10,
+            }
+          }
+        >
+          mina 7月号
+        </Text>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "color": "#000000",
+              "fontSize": 11,
+              "fontWeight": "bold",
+              "marginTop": 10,
+            }
+          }
+        >
+          missing "en.book_issue_date_format" translation
+        </Text>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "color": "#999999",
+              "fontSize": 11,
+              "marginTop": 8,
+            }
+          }
+        >
+          [missing "en.delivery_date" translation](2018/5/20)[missing "en.end_date" translation](2018/8/19)
+        </Text>
+        <View
+          style={
+            Object {
+              "flex": 1,
+            }
+          }
+        />
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#fff20048",
+                "flexDirection": "row",
+                "height": 28,
+                "paddingHorizontal": 10,
+              },
+              null,
+            ]
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "#4f5b77",
+                "fontSize": 11,
+              }
+            }
+          >
+            100% [missing "en.download_completed" translation]
+          </Text>
+          <View
+            style={
+              Object {
+                "flex": 1,
+              }
+            }
+          />
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "#4f5b77",
+                "fontSize": 11,
+              }
+            }
+          >
+            84.74MB
+          </Text>
+        </View>
+      </View>
+    </View>
+    <View
+      accessible={true}
+      isTVSelectable={true}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "height": 40,
+          "justifyContent": "center",
+          "opacity": 1,
+          "position": "absolute",
+          "right": 3,
+          "top": 3,
+          "width": 40,
+        }
+      }
+    >
+      <View>
+        <Image
+          source={
+            Object {
+              "testUri": "../../../src/assets/images/delete_ico.png",
+            }
+          }
+        />
+      </View>
+    </View>
+  </View>
+</View>
+`;

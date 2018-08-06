@@ -1,0 +1,51 @@
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Lunascape Corporation. All rights reserved.
+ *--------------------------------------------------------------------------------------------*/
+import * as React from 'react';
+import { StyleSheet, ViewStyle, View } from 'react-native';
+import { connect, MapStateToPropsParam, MapDispatchToPropsParam } from 'react-redux';
+import { RouterProps } from 'react-router';
+
+import { IStore } from '../stores/configure-store';
+import { WHITE_COLOR } from './styles/app-style';
+
+import TBD from './parts/tbd';
+
+interface IStateProps {
+}
+
+interface IDispProps {
+}
+
+interface IOwnProps extends RouterProps {
+}
+
+type IProps = IStateProps & IDispProps & IOwnProps;
+
+class {{name}}View extends React.PureComponent<IProps> {
+  constructor(props: IProps) {
+    super(props);
+  }
+
+  public render() {
+    return (
+      <View style={styles.container} >
+        <TBD />
+      </View>
+    );
+  }
+}
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: WHITE_COLOR,
+  } as ViewStyle,
+});
+
+const mapStateToProps: MapStateToPropsParam<IStateProps, IOwnProps, IStore> = (store: IStore, ownProps) => ({
+});
+const mapDispatchToProps: MapDispatchToPropsParam<IDispProps, IOwnProps> = (dispatch, ownProps) => ({
+});
+
+export default connect(mapStateToProps, mapDispatchToProps)({{name}}View);

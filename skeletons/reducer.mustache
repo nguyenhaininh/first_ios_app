@@ -1,0 +1,11 @@
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Lunascape Corporation. All rights reserved.
+ *--------------------------------------------------------------------------------------------*/
+import { createTypeReducer } from '../common/utility/redux';
+import {
+} from '../actions/{{kebabName}}-actions';
+import { I{{name}}State, createInitial{{name}}State } from './{{kebabName}}-state';
+
+export const {{kebabName}}Reducer = createTypeReducer<I{{name}}State>(
+  createInitial{{name}}State,
+);

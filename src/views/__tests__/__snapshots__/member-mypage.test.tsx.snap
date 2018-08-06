@@ -1,0 +1,948 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<RCTScrollView
+  contentContainerStyle={
+    Object {
+      "paddingBottom": 20,
+    }
+  }
+  style={
+    Object {
+      "backgroundColor": "#f7f7f7",
+      "flex": 1,
+    }
+  }
+>
+  <View>
+    <View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#4f5b77",
+            "flexDirection": "row",
+            "height": 42,
+            "marginTop": 20,
+            "paddingHorizontal": 15,
+          }
+        }
+      >
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "color": "#ffffff",
+              "fontSize": 16,
+              "fontWeight": "bold",
+            }
+          }
+        >
+          [missing "en.account_info" translation]
+        </Text>
+      </View>
+      <View
+        accessible={true}
+        isTVSelectable={true}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#ffffff",
+              "borderBottomColor": "#eaebed",
+              "borderBottomWidth": 0.5,
+              "flexDirection": "row",
+              "height": 54,
+              "paddingHorizontal": 15,
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "#333333",
+                "flex": 1,
+                "fontSize": 16,
+              }
+            }
+          >
+            [missing "en.change_email" translation]
+          </Text>
+          <Image
+            source={
+              Object {
+                "testUri": "../../../src/assets/images/arrow-ico.png",
+              }
+            }
+          />
+        </View>
+      </View>
+      <View
+        accessible={true}
+        isTVSelectable={true}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#ffffff",
+              "borderBottomColor": "#eaebed",
+              "borderBottomWidth": 0.5,
+              "flexDirection": "row",
+              "height": 54,
+              "paddingHorizontal": 15,
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "#333333",
+                "flex": 1,
+                "fontSize": 16,
+              }
+            }
+          >
+            [missing "en.change_payment" translation]
+          </Text>
+          <Image
+            source={
+              Object {
+                "testUri": "../../../src/assets/images/arrow-ico.png",
+              }
+            }
+          />
+        </View>
+      </View>
+      <View
+        accessible={true}
+        isTVSelectable={true}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#ffffff",
+              "borderBottomColor": "#eaebed",
+              "borderBottomWidth": 0.5,
+              "flexDirection": "row",
+              "height": 54,
+              "paddingHorizontal": 15,
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "#333333",
+                "flex": 1,
+                "fontSize": 16,
+              }
+            }
+          >
+            [missing "en.contact_detail" translation]
+          </Text>
+          <Image
+            source={
+              Object {
+                "testUri": "../../../src/assets/images/arrow-ico.png",
+              }
+            }
+          />
+        </View>
+      </View>
+      <View
+        accessible={true}
+        isTVSelectable={true}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#ffffff",
+              "borderBottomColor": "#eaebed",
+              "borderBottomWidth": 0.5,
+              "flexDirection": "row",
+              "height": 54,
+              "paddingHorizontal": 15,
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "#333333",
+                "flex": 1,
+                "fontSize": 16,
+              }
+            }
+          >
+            [missing "en.point_setting" translation]
+          </Text>
+          <Image
+            source={
+              Object {
+                "testUri": "../../../src/assets/images/arrow-ico.png",
+              }
+            }
+          />
+        </View>
+      </View>
+      <View
+        accessible={true}
+        isTVSelectable={true}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#ffffff",
+              "borderBottomColor": "#eaebed",
+              "borderBottomWidth": 0.5,
+              "flexDirection": "row",
+              "height": 54,
+              "paddingHorizontal": 15,
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "#333333",
+                "flex": 1,
+                "fontSize": 16,
+              }
+            }
+          >
+            [missing "en.billing_history" translation]
+          </Text>
+          <Image
+            source={
+              Object {
+                "testUri": "../../../src/assets/images/arrow-ico.png",
+              }
+            }
+          />
+        </View>
+      </View>
+      <View
+        accessible={true}
+        isTVSelectable={true}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#ffffff",
+              "borderBottomColor": "#eaebed",
+              "borderBottomWidth": 0.5,
+              "flexDirection": "row",
+              "height": 54,
+              "paddingHorizontal": 15,
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "#333333",
+                "flex": 1,
+                "fontSize": 16,
+              }
+            }
+          >
+            [missing "en.stop_payment" translation]
+          </Text>
+          <Image
+            source={
+              Object {
+                "testUri": "../../../src/assets/images/arrow-ico.png",
+              }
+            }
+          />
+        </View>
+      </View>
+    </View>
+    <View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#4f5b77",
+            "flexDirection": "row",
+            "height": 42,
+            "marginTop": 20,
+            "paddingHorizontal": 15,
+          }
+        }
+      >
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "color": "#ffffff",
+              "fontSize": 16,
+              "fontWeight": "bold",
+            }
+          }
+        >
+          [missing "en.various_setting" translation]
+        </Text>
+      </View>
+      <View
+        accessible={true}
+        isTVSelectable={true}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#ffffff",
+              "borderBottomColor": "#eaebed",
+              "borderBottomWidth": 0.5,
+              "flexDirection": "row",
+              "height": 54,
+              "paddingHorizontal": 15,
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "#333333",
+                "flex": 1,
+                "fontSize": 16,
+              }
+            }
+          >
+            [missing "en.download_wifi_only" translation]
+          </Text>
+          <RCTSwitch
+            disabled={false}
+            onChange={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Array [
+                Object {
+                  "height": 31,
+                  "width": 51,
+                },
+                undefined,
+              ]
+            }
+            value={false}
+          />
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "bottom": 3,
+                "color": "#333333",
+                "fontSize": 12,
+                "left": 15,
+                "position": "absolute",
+              }
+            }
+          >
+            [missing "en.tap_to_view_explain" translation]
+          </Text>
+        </View>
+      </View>
+      <View
+        accessible={true}
+        isTVSelectable={true}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#ffffff",
+              "borderBottomColor": "#eaebed",
+              "borderBottomWidth": 0.5,
+              "flexDirection": "row",
+              "height": 54,
+              "paddingHorizontal": 15,
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "#333333",
+                "flex": 1,
+                "fontSize": 16,
+              }
+            }
+          >
+            [missing "en.delivery_setting" translation]
+          </Text>
+          <Image
+            source={
+              Object {
+                "testUri": "../../../src/assets/images/arrow-ico.png",
+              }
+            }
+          />
+        </View>
+      </View>
+      <View
+        accessible={true}
+        isTVSelectable={true}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#ffffff",
+              "borderBottomColor": "#eaebed",
+              "borderBottomWidth": 0.5,
+              "flexDirection": "row",
+              "height": 54,
+              "paddingHorizontal": 15,
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "#333333",
+                "flex": 1,
+                "fontSize": 16,
+              }
+            }
+          >
+            [missing "en.confirm_user_terminate" translation]
+          </Text>
+          <Image
+            source={
+              Object {
+                "testUri": "../../../src/assets/images/arrow-ico.png",
+              }
+            }
+          />
+        </View>
+      </View>
+    </View>
+    <View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#4f5b77",
+            "flexDirection": "row",
+            "height": 42,
+            "marginTop": 20,
+            "paddingHorizontal": 15,
+          }
+        }
+      >
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "color": "#ffffff",
+              "fontSize": 16,
+              "fontWeight": "bold",
+            }
+          }
+        >
+          [missing "en.other_setting" translation]
+        </Text>
+      </View>
+      <View
+        accessible={true}
+        isTVSelectable={true}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#ffffff",
+              "borderBottomColor": "#eaebed",
+              "borderBottomWidth": 0.5,
+              "flexDirection": "row",
+              "height": 54,
+              "paddingHorizontal": 15,
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "#333333",
+                "flex": 1,
+                "fontSize": 16,
+              }
+            }
+          >
+            [missing "en.contact_us" translation]
+          </Text>
+          <Image
+            source={
+              Object {
+                "testUri": "../../../src/assets/images/arrow-ico.png",
+              }
+            }
+          />
+        </View>
+      </View>
+      <View
+        accessible={true}
+        isTVSelectable={true}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#ffffff",
+              "borderBottomColor": "#eaebed",
+              "borderBottomWidth": 0.5,
+              "flexDirection": "row",
+              "height": 54,
+              "paddingHorizontal": 15,
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "#333333",
+                "flex": 1,
+                "fontSize": 16,
+              }
+            }
+          >
+            [missing "en.help_faq" translation]
+          </Text>
+          <Image
+            source={
+              Object {
+                "testUri": "../../../src/assets/images/arrow-ico.png",
+              }
+            }
+          />
+        </View>
+      </View>
+      <View
+        accessible={true}
+        isTVSelectable={true}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#ffffff",
+              "borderBottomColor": "#eaebed",
+              "borderBottomWidth": 0.5,
+              "flexDirection": "row",
+              "height": 54,
+              "paddingHorizontal": 15,
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "#333333",
+                "flex": 1,
+                "fontSize": 16,
+              }
+            }
+          >
+            [missing "en.company_profile" translation]
+          </Text>
+          <Image
+            source={
+              Object {
+                "testUri": "../../../src/assets/images/arrow-ico.png",
+              }
+            }
+          />
+        </View>
+      </View>
+      <View
+        accessible={true}
+        isTVSelectable={true}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#ffffff",
+              "borderBottomColor": "#eaebed",
+              "borderBottomWidth": 0.5,
+              "flexDirection": "row",
+              "height": 54,
+              "paddingHorizontal": 15,
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "#333333",
+                "flex": 1,
+                "fontSize": 16,
+              }
+            }
+          >
+            [missing "en.term_of_service" translation]
+          </Text>
+          <Image
+            source={
+              Object {
+                "testUri": "../../../src/assets/images/arrow-ico.png",
+              }
+            }
+          />
+        </View>
+      </View>
+      <View
+        accessible={true}
+        isTVSelectable={true}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#ffffff",
+              "borderBottomColor": "#eaebed",
+              "borderBottomWidth": 0.5,
+              "flexDirection": "row",
+              "height": 54,
+              "paddingHorizontal": 15,
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "#333333",
+                "flex": 1,
+                "fontSize": 16,
+              }
+            }
+          >
+            [missing "en.personal_info" translation]
+          </Text>
+          <Image
+            source={
+              Object {
+                "testUri": "../../../src/assets/images/arrow-ico.png",
+              }
+            }
+          />
+        </View>
+      </View>
+      <View
+        accessible={true}
+        isTVSelectable={true}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#ffffff",
+              "borderBottomColor": "#eaebed",
+              "borderBottomWidth": 0.5,
+              "flexDirection": "row",
+              "height": 54,
+              "paddingHorizontal": 15,
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "#333333",
+                "flex": 1,
+                "fontSize": 16,
+              }
+            }
+          >
+            [missing "en.privacy_policy" translation]
+          </Text>
+          <Image
+            source={
+              Object {
+                "testUri": "../../../src/assets/images/arrow-ico.png",
+              }
+            }
+          />
+        </View>
+      </View>
+      <View
+        accessible={true}
+        isTVSelectable={true}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#ffffff",
+              "borderBottomColor": "#eaebed",
+              "borderBottomWidth": 0.5,
+              "flexDirection": "row",
+              "height": 54,
+              "paddingHorizontal": 15,
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "#333333",
+                "flex": 1,
+                "fontSize": 16,
+              }
+            }
+          >
+            [missing "en.logout" translation]
+          </Text>
+          <Image
+            source={
+              Object {
+                "testUri": "../../../src/assets/images/arrow-ico.png",
+              }
+            }
+          />
+        </View>
+      </View>
+    </View>
+  </View>
+</RCTScrollView>
+`;

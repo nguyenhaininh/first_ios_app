@@ -1,0 +1,9 @@
+exports[`renders correctly 1`] = `
+<Image
+  source={
+    Object {
+      "process": [Function],
+    }
+  }
+/>
+`;
